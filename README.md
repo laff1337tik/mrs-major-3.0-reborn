@@ -1,1 +1,1 @@
-[Текстовая страница из проекта](https://laff1337tik.github.io/mrs_major_reborn/)
+[Перейти на сайт](https://laff1337tik.github.io/mrs_major_reborn/)
