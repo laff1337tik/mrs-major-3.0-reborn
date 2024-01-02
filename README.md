@@ -1,1 +1,1 @@
-<iframe src="https://laff1337tik.github.io/mrs_major_reborn/"></iframe>
+[Текстовая страница из проекта](https://laff1337tik.github.io/mrs_major_reborn/)
