@@ -39,13 +39,32 @@
     .download-button:hover {
       background-color: #0056b3;
     }
+    .key-container {
+      margin-top: 20px;
+      text-align: center;
+      position: relative;
+      font-size: 18px;
+    }
+    .key {
+      color: transparent;
+      text-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+      transition: text-shadow 0.3s ease;
+      cursor: default;
+    }
+    .key:hover {
+      text-shadow: none;
+    }
   </style>
 </head>
 <body>
 
   <div class="photo-container">
-    <img src="img.jpg" alt="Фотография">
+    <img src="app.jpg" alt="Фотография">
     <a href="https://example.com" download class="download-button">Скачать</a>
+    <div class="key-container">
+      <span>Ключ:</span>
+      <span class="key">dro4erdll</span>
+    </div>
   </div>
 
 </body>
