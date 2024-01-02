@@ -20,6 +20,7 @@
       background-color: #fff;
       border-radius: 8px;
       box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+      text-align: center;
     }
     img {
       max-width: 100%;
@@ -28,7 +29,7 @@
     }
     .download-button {
       display: block;
-      margin-top: 20px;
+      margin: 20px auto;
       padding: 10px 20px;
       font-size: 16px;
       text-decoration: none;
@@ -44,9 +45,9 @@
     }
     .key-container {
       margin-top: 20px;
-      text-align: center;
       position: relative;
       font-size: 18px;
+      text-align: center;
     }
     .key {
       color: transparent;
@@ -54,8 +55,12 @@
       transition: text-shadow 0.3s ease;
       cursor: default;
     }
-    .key-container:hover .key {
+    .key-container .key {
       text-shadow: none;
+      color: transparent;
+    }
+    .key-container .key:hover {
+      text-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
       color: black;
     }
     .background {
@@ -78,16 +83,15 @@
     <img src="launcherPreview.png" alt="Фотография">
     <a href="" download class="download-button">Скачать</a>
     <div class="key-container">
-  <span>
-    Это собственная переделка Mrs Major 3.0<br>
-    Если вы хотите, вы можете протестировать данное ПО, но<br>
-    автор не несет ответственность за ваши действия.<br>
-    Удачи!<br><br>
-    Ключ:<br>
-  </span>
-  <span class="key">Ta4erLox!</span>
-</div>
-
+      <span>
+        Это собственная переделка Mrs Major 3.0<br>
+        Если вы хотите, вы можете протестировать данное ПО, но<br>
+        автор не несет ответственность за ваши действия.<br>
+        Удачи!<br><br>
+        Ключ:<br>
+        <span class="key">Ta4erLox!</span>
+      </span>
+    </div>
   </div>
 
 </body>
