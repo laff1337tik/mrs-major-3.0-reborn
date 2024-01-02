@@ -26,10 +26,12 @@
       max-width: 100%;
       height: auto;
       border-radius: 8px;
+      display: block;
+      margin: 0 auto; /* Центрирование изображения */
     }
     .download-button {
       display: block;
-      margin: 20px auto;
+      margin: 20px auto; /* Центрирование кнопки */
       padding: 10px 20px;
       font-size: 16px;
       text-decoration: none;
@@ -48,6 +50,7 @@
       position: relative;
       font-size: 18px;
       text-align: center;
+      color: black; /* Цвет текста контейнера ключа */
     }
     .key {
       color: transparent;
@@ -55,12 +58,8 @@
       transition: text-shadow 0.3s ease;
       cursor: default;
     }
-    .key-container .key {
+    .key:hover {
       text-shadow: none;
-      color: transparent;
-    }
-    .key-container .key:hover {
-      text-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
       color: black;
     }
     .background {
@@ -88,7 +87,7 @@
         Если вы хотите, вы можете протестировать данное ПО, но<br>
         автор не несет ответственность за ваши действия.<br>
         Удачи!<br><br>
-        Ключ:<br>
+        Ключ:
         <span class="key">Ta4erLox!</span>
       </span>
     </div>
